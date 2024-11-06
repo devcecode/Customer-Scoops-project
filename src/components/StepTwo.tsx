@@ -38,11 +38,12 @@ const companyPositions = [
 ]
 
 interface StepTwoProps {
-  userName: string
+  userName: string,
+  setCompanyPosition: React.Dispatch<React.SetStateAction<string>>
   setStep: React.Dispatch<React.SetStateAction<number>>
 }
 
-const StepTwo: React.FC<StepTwoProps> = ({ userName, setStep }) => {
+const StepTwo: React.FC<StepTwoProps> = ({ userName, setCompanyPosition, setStep }) => {
 
   const [ active, setActive ] = useState<string>('')
 

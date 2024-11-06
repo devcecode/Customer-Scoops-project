@@ -8,21 +8,21 @@ function Main() {
   const [ step, setStep ] = useState<number>(1)
 
   return (
-    <MainStyled>
+    <MainStyled isStepSix={step === 6}>
       <Hero step={step}/>
-      <Steps />
+      <Steps step={step} setStep={setStep} />
     </MainStyled>
   )
 }
 
 export default Main
 
-const MainStyled = styled.main`
-margin: 0 auto;
+const MainStyled = styled.main<{ isStepSix: boolean }>`
 @media(min-width: 1244px) {
+  background-color: ${({ isStepSix }) => isStepSix && '#00CCBC'};
+  display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  display: flex;
   justify-content: space-between;
 }
 `

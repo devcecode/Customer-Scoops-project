@@ -2,19 +2,22 @@ import styled from "styled-components"
 
 const StepSix = () => {
   return (
-    <>
+    <StepSixStyled>
       <Paragraph>
         <h2>Muchas Gracias</h2>
         por querer ser parte <br />
         de la familia Scoopers.
       </Paragraph>
       <Paragraph><span>Nos vemos pronto!</span></Paragraph>
-      <Link href="#">Finalizar</Link>
-    </>
+      <Link href="https://www.customerscoops.com/" target="_blank">Finalizar</Link>
+    </StepSixStyled>
   )
 }
 
 export default StepSix
+
+const StepSixStyled = styled.div`
+`
 
 const Paragraph = styled.p`
 & > span {

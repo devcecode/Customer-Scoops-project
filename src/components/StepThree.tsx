@@ -82,7 +82,7 @@ color: #231331;
 const Challenges = styled.div`
 display: flex;
 flex-direction: column;
-gap: .25rem;
+gap: .35rem;
 margin: 1.25rem 0;
 
 @media(min-width: 1244px) {
@@ -96,13 +96,13 @@ const Challenge = styled.div`
 background-color: transparent;
 display: flex;
 align-items: center;
-gap: 1.25rem;
 border: 1px solid #000000;
 height: 39px;
 border-radius: 30px;
 padding: .25rem;
-
+gap: 1.25rem;
 @media(min-width: 1244px) {
+  gap: .75rem;
   width: 180px;
 }
 
@@ -126,6 +126,13 @@ border-radius: 1.25rem;
 display: flex;
 justify-content: center;
 align-items: center;
+
+@media(min-width: 1244px) {
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
 `
 
 const Name = styled.p`

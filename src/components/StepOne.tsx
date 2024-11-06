@@ -48,7 +48,7 @@ width: 100%;
 height: 24px;
 outline: none;
 font-family: "Nunito Sans", sans-serif;
-
+font-size: 1rem;
 max-width: 340px;
 `
 

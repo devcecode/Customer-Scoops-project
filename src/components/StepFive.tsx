@@ -104,7 +104,7 @@ color: #231331;
 const Industries = styled.div`
 display: flex;
 flex-wrap: wrap;
-row-gap: .25rem;
+row-gap: .35rem;
 column-gap: .5rem;
 margin-top: 1.25rem;
 margin-bottom: 2.1rem;
