@@ -1,11 +1,22 @@
 # Proyecto - Customer Scoops
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pequeña aplicación que solo hace falta generar la aplicación usando vite e instalar la dependencia styled components.
 
-Currently, two official plugins are available:
+## Estructura de carpetas y archivos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```plaintext
+my-project/
+├── src/
+│   ├── components/       # Componentes reutilizables de la interfaz
+│   ├── App.tsx           # Componente raíz de la aplicación
+│   └── main.tsx          # Punto de entrada de la aplicación
+├── public/               # Archivos públicos estáticos
+├── package.json          # Dependencias y scripts del proyecto
+└── README.md             # Documentación del proyecto
+
+## Enlaces
+- [web](https://customer-scopes-project.netlify.app/) 
+- [repo](https://github.com/devcecode/customer-scoops-project/)
 
 ## Expanding the ESLint configuration
 
