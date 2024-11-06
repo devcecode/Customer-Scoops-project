@@ -32,4 +32,7 @@ npm run build
 
 La funcionalidad de enviar el Email esta implementada, el cual lo puedes hacer en el paso 6, ahi se muestra un botón "Enviar Mail"
 
-Nota Importante: En cuanto al diseño del template, falta pulir un detalle, he tenido algunos inconvenientes a la hora de tratar de renderizar las imagenes en este template, lo que parece ser medianamente retador, seguro más temprano que tarde arreglaré estos pequeños detalles
+Nota Importante: En cuanto al diseño del template, falta pulir un detalle, he tenido algunos inconvenientes a la hora de tratar de renderizar las imagenes en este template, lo que parece ser medianamente retador, seguro más temprano que tarde arreglaré estos pequeño detalle.
+
+Para ver el template puedes visitar:
+[Template](https://customer-scopes-project.netlify.app/email-template.html)

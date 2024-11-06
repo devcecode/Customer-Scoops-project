@@ -64,4 +64,8 @@ text-decoration: underline;
 background-color: transparent;
 outline: none;
 border: none;
+
+&:hover {
+  cursor: pointer;
+}
 `
