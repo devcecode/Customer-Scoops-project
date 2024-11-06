@@ -15,8 +15,8 @@ my-project/
 └── README.md             # Documentación del proyecto
 
 ## Enlaces
-- [web](https://customer-scopes-project.netlify.app/) 
-- [repo](https://github.com/devcecode/customer-scoops-project/)
+- [Web](https://customer-scopes-project.netlify.app/) 
+- [Repo](https://github.com/devcecode/customer-scoops-project/)
 
 ## Expanding the ESLint configuration
 
