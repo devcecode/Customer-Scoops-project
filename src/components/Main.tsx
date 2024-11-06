@@ -18,6 +18,7 @@ function Main() {
 export default Main
 
 const MainStyled = styled.main<{ isStepSix: boolean }>`
+margin-bottom: 3.1rem;
 @media(min-width: 1244px) {
   background-color: ${({ isStepSix }) => isStepSix && '#00CCBC'};
   display: flex;
