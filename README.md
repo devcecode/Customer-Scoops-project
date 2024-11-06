@@ -2,18 +2,6 @@
 
 Pequeña aplicación que solo hace falta generar la aplicación usando vite e instalar la dependencia styled components.
 
-## Estructura de carpetas y archivos
-
-```plaintext
-my-project/
-├── src/
-│   ├── components/       # Componentes reutilizables de la interfaz
-│   ├── App.tsx           # Componente raíz de la aplicación
-│   └── main.tsx          # Punto de entrada de la aplicación
-├── public/               # Archivos públicos estáticos
-├── package.json          # Dependencias y scripts del proyecto
-└── README.md             # Documentación del proyecto
-
 ## Enlaces
 - [Web](https://customer-scopes-project.netlify.app/) 
 - [Repo](https://github.com/devcecode/customer-scoops-project/)
