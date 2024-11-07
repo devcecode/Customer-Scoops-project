@@ -6,13 +6,6 @@ Pequeña aplicación que solo hace falta generar la aplicación usando vite e in
 - [Web](https://customer-scopes-project.netlify.app/) 
 - [Repo](https://github.com/devcecode/customer-scoops-project/)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-
 ## Levantar la aplicación:
 
 - Clona el repo
