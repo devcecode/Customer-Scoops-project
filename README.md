@@ -9,7 +9,7 @@ Pequeña aplicación que solo hace falta generar la aplicación usando vite e in
 ## Levantar la aplicación:
 
 - Clona el repo
-- Navega a la carpeta donde se clonó el 
+- Navega a la carpeta donde se clonó el proyecto.
 - Estando en el direcorio del proyecto, tipea en la consola npm install para instalar la unica dependencia -> styled-components
 ```js
 npm install
