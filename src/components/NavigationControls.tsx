@@ -36,6 +36,7 @@ gap: .5rem;
 const Button = styled.button`
 outline: none;
 background-color: transparent;
+border: none;
 
 &:hover {
   cursor: pointer;
